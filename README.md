@@ -9,7 +9,7 @@ To find your ndk installation directory and your arch, e.g arm64-v8a. go to dire
 example:
 
 
-python3 tools/android_cmake_build.py -n C:\Users\mg\AppData\Local\Android\Sdk\ndk\26.1.10909125 -a arm64-v8a -i ./ -o build/arm64-v8a
+python3 tools/android_cmake_build.py -n C:\Users\michael\AppData\Local\Android\Sdk\ndk\26.1.10909125 -a arm64-v8a -i ./ -o build/arm64-v8a
 
 it will create directory build/arm64-v8a and generate makefile according to CMakeLists.txt
 
